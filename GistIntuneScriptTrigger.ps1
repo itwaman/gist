@@ -80,6 +80,22 @@ $GistCatalog = @(
         Author      = "itwaman"
         Elevation   = $false
     }
+    [ordered] @{
+        Name        = "Get-IntuneManagementExtensionDiagnostics"
+        Category    = "Windows"
+        Url         = "https://github.com/petripaavola/Get-IntuneManagementExtensionDiagnostics/raw/main/Get-IntuneManagementExtensionDiagnostics.ps1"
+        Description = "Script to parse Intune Management Extension logs and display a timeline in a readable format"
+        Author      = "Petri Paavola"
+        Elevation   = $false
+    }
+    [ordered] @{
+        Name        = "DeliveryOptimizationTroubleshooter"
+        Category    = "Windows"
+        Url         = "https://raw.githubusercontent.com/itwaman/myPSscripts/main/DeliveryOptimizationTroubleshooter.ps1"
+        Description = "Troubleshoot Delivery Optimization by performing device health checks and peer-to-peer configuration of the device"
+        Author      = "carmenf"
+        Elevation   = $false
+    }
     #[ordered] @{
     #    Name        = ""
     #    Category    = ""
