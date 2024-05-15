@@ -81,12 +81,20 @@ $GistCatalog = @(
         Elevation   = $false
     }
     [ordered] @{
+        Name        = "DOPinFileId"
+        Category    = "Windows"
+        Url         = "https://raw.githubusercontent.com/itwaman/myPSscripts/main/DOpinFileId.ps1"
+        Description = "Script to pin cached packages in Delivey Optimization in order to avoid them to expire"
+        Author      = "itwaman"
+        Elevation   = $true
+    }
+    [ordered] @{
         Name        = "Get-IntuneManagementExtensionDiagnostics"
         Category    = "Windows"
         Url         = "https://github.com/petripaavola/Get-IntuneManagementExtensionDiagnostics/raw/main/Get-IntuneManagementExtensionDiagnostics.ps1"
         Description = "Script to parse Intune Management Extension logs and display a timeline in a readable format"
         Author      = "Petri Paavola"
-        Elevation   = $false
+        Elevation   = $true
     }
     [ordered] @{
         Name        = "DeliveryOptimizationTroubleshooter"
