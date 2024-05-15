@@ -72,6 +72,14 @@ $GistCatalog = @(
         Author      = "Jonasatgit"
         Elevation   = $false
     }
+    [ordered] @{
+        Name        = "DOStatusMonitor"
+        Category    = "Windows"
+        Url         = "https://raw.githubusercontent.com/itwaman/myPSscripts/main/DOStatusMonitor.ps1"
+        Description = "Script to monitor Delivery Optimization jobs (more fields). Will refresh every two seconds"
+        Author      = "itwaman"
+        Elevation   = $false
+    }
     #[ordered] @{
     #    Name        = ""
     #    Category    = ""
