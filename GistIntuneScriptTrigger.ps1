@@ -104,6 +104,14 @@ $GistCatalog = @(
         Author      = "carmenf"
         Elevation   = $false
     }
+    [ordered] @{
+        Name        = "ReadDhcpOptions"
+        Category    = "Windows"
+        Url         = "https://raw.githubusercontent.com/itwaman/myPSscripts/main/ReadDhcpOptions.ps1"
+        Description = "Read DHCP options from registry ""HKLM:\SYSTEM\CurrentControlSet\services\Tcpip\Parameters\Interfaces"" http://www.ingmarverheij.com"
+        Author      = "Ingmar Verheij"
+        Elevation   = $false
+    }
     #[ordered] @{
     #    Name        = ""
     #    Category    = ""
