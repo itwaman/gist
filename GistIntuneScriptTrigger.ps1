@@ -58,7 +58,7 @@ $GistCatalog = @(
     }
     [ordered] @{
         Name        = "DO-Monitor"
-        Category    = "Windows"
+        Category    = "Windows-DO"
         Url         = "https://raw.githubusercontent.com/jonasatgit/scriptrepo/e2f18b378d4aefea32b649be371d87351366136b/General/DO-Monitor.ps1"
         Description = "Script to monitor Delivery Optimization jobs. Will refresh every two seconds"
         Author      = "Jonasatgit"
@@ -74,7 +74,7 @@ $GistCatalog = @(
     }
     [ordered] @{
         Name        = "DOStatusMonitor"
-        Category    = "Windows"
+        Category    = "Windows-DO"
         Url         = "https://raw.githubusercontent.com/itwaman/myPSscripts/main/DOStatusMonitor.ps1"
         Description = "Script to monitor Delivery Optimization jobs (more fields). Will refresh every two seconds"
         Author      = "itwaman"
@@ -82,7 +82,7 @@ $GistCatalog = @(
     }
     [ordered] @{
         Name        = "DOPinFileId"
-        Category    = "Windows"
+        Category    = "Windows-DO"
         Url         = "https://raw.githubusercontent.com/itwaman/myPSscripts/main/DOpinFileId.ps1"
         Description = "Script to pin cached packages in Delivey Optimization in order to avoid them to expire"
         Author      = "itwaman"
@@ -98,7 +98,7 @@ $GistCatalog = @(
     }
     [ordered] @{
         Name        = "DeliveryOptimizationTroubleshooter"
-        Category    = "Windows"
+        Category    = "Windows-DO"
         Url         = "https://raw.githubusercontent.com/itwaman/myPSscripts/main/DeliveryOptimizationTroubleshooter.ps1"
         Description = "Troubleshoot Delivery Optimization by performing device health checks and peer-to-peer configuration"
         Author      = "carmenf"
