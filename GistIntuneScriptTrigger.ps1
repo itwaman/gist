@@ -100,7 +100,7 @@ $GistCatalog = @(
         Name        = "DeliveryOptimizationTroubleshooter"
         Category    = "Windows"
         Url         = "https://raw.githubusercontent.com/itwaman/myPSscripts/main/DeliveryOptimizationTroubleshooter.ps1"
-        Description = "Troubleshoot Delivery Optimization by performing device health checks and peer-to-peer configuration of the device"
+        Description = "Troubleshoot Delivery Optimization by performing device health checks and peer-to-peer configuration"
         Author      = "carmenf"
         Elevation   = $false
     }
@@ -108,7 +108,7 @@ $GistCatalog = @(
         Name        = "ReadDhcpOptions"
         Category    = "Windows"
         Url         = "https://raw.githubusercontent.com/itwaman/myPSscripts/main/ReadDhcpOptions.ps1"
-        Description = "Read DHCP options from registry ""HKLM:\SYSTEM\CurrentControlSet\services\Tcpip\Parameters\Interfaces"" http://www.ingmarverheij.com"
+        Description = "Read DHCP options from registry - https://ingmarverheij.com/read-dhcp-options-received-by-the-client/"
         Author      = "Ingmar Verheij"
         Elevation   = $false
     }
