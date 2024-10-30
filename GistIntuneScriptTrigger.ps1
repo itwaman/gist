@@ -118,7 +118,7 @@ $GistCatalog = @(
         Url         = "https://raw.githubusercontent.com/Azure-Samples/TestDeviceRegConnectivity/refs/heads/main/Test-DeviceRegConnectivity.ps1"
         Description = "Test Intune connectivity - https://github.com/Azure-Samples/TestDeviceRegConnectivity/tree/main"
         Author      = "Mohammad Zmaili (mzmaili)"
-        Elevation   = $false
+        Elevation   = $true
     }
     #[ordered] @{
     #    Name        = ""
