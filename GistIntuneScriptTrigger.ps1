@@ -102,7 +102,7 @@ $GistCatalog = @(
         Url         = "https://raw.githubusercontent.com/itwaman/myPSscripts/main/DeliveryOptimizationTroubleshooter.ps1"
         Description = "Troubleshoot Delivery Optimization by performing device health checks and peer-to-peer configuration"
         Author      = "carmenf"
-        Elevation   = $false
+        Elevation   = $true
     }
     [ordered] @{
         Name        = "ReadDhcpOptions"
