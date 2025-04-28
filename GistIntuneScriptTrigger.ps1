@@ -2,8 +2,8 @@ $global:HostVar = $Host
 $Branch = "main"
 $Version = "v0.1.0"
 $Title = @"
-GIST - Gist Intune Script Trigger $Version ($Branch) by https://x.com/MrWyss 
-Source: https://github.com/MrWyss-MSFT/gist
+GIST - Gist Intune Script Trigger $Version ($Branch) by ITWAMAN
+Source: https://github.com/itwaman/gist
 `u{1F195}: Entries: BITS-Monitor, Get-PerfCounterList and DO-Monitor thx to Jonasatgit
 "@
 
@@ -116,7 +116,7 @@ $GistCatalog = @(
         Name        = "Get-IntuneNetworkRequirements (requires PS7)"
         Category    = "Windows"
         Url         = "https://raw.githubusercontent.com/MHimken/toolbox/refs/heads/main/Intune/IntuneNetworkRequirements/Get-IntuneNetworkRequirements.ps1"
-        Description = "Test Intune connectivity - https://github.com/Azure-Samples/TestDeviceRegConnectivity/tree/main"
+        Description = "Intune Network Requirements - https://manima.de/2024/08/intune-network-requirements-everything-i-learned/"
         Author      = "Martin Himken"
         Elevation   = $true
     }
