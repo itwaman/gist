@@ -113,11 +113,11 @@ $GistCatalog = @(
         Elevation   = $false
     }
     [ordered] @{
-        Name        = "Test Intune Connectivity"
+        Name        = "Get-IntuneNetworkRequirements (requires PS7)"
         Category    = "Windows"
-        Url         = "https://raw.githubusercontent.com/Azure-Samples/TestDeviceRegConnectivity/refs/heads/main/Test-DeviceRegConnectivity.ps1"
+        Url         = "https://raw.githubusercontent.com/MHimken/toolbox/refs/heads/main/Intune/IntuneNetworkRequirements/Get-IntuneNetworkRequirements.ps1"
         Description = "Test Intune connectivity - https://github.com/Azure-Samples/TestDeviceRegConnectivity/tree/main"
-        Author      = "Mohammad Zmaili (mzmaili)"
+        Author      = "Martin Himken"
         Elevation   = $true
     }
     #[ordered] @{
@@ -425,7 +425,8 @@ $Menu = [ConsoleMenu]@{
 }
 
 # Check if the script is called with a script number
-if ($($MyInvocation.MyCommand) -match 'gist\.ittips\.ch/(?:test/|dev/)?(\d+)') {
+#if ($($MyInvocation.MyCommand) -match 'gist\.ittips\.ch/(?:test/|dev/)?(\d+)') {
+if ($($MyInvocation.MyCommand) -match 'inside\.abb/itwaman?(\d+)') {
     [int]$paramScriptNumber = $($matches[1])
     Invoke-Gist -ScriptObject $GistCatalog[$paramScriptNumber - 1] -NoConfirm
 }
