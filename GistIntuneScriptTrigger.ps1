@@ -89,10 +89,10 @@ $GistCatalog = @(
         Elevation   = $true
     }
     [ordered] @{
-        Name        = "DOPinFileId"
+        Name        = "DOUnPinFileId"
         Category    = "Windows-DO"
         Url         = "https://raw.githubusercontent.com/itwaman/myPSscripts/main/DOunpinFileId.ps1"
-        Description = "Script to pin cached packages in Delivey Optimization in order to avoid them to expire"
+        Description = "Script to UNpin cached packages in Delivey Optimization"
         Author      = "itwaman"
         Elevation   = $true
     }
